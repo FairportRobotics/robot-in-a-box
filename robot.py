@@ -4,7 +4,9 @@ import phoenix5
 class MyRobot(wpilib.TimedRobot):
     def robotInit(self):
         self.motor = phoenix5.TalonSRX(17)
+        self.controller = wpilib.XboxController(0)
 
     def teleopPeriodic(self):
-        self.motor.set(0.5) 
+        speed = self.controller.getLeftY()
+        self.motor.set(speed) 
         
