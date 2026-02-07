@@ -5,3 +5,4 @@
 * robotpy init
 * Edit pyproject.toml
 * robotpy sync
+* rbotpy add-tests
