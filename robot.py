@@ -6,5 +6,5 @@ class MyRobot(wpilib.TimedRobot):
         self.motor = phoenix5.TalonSRX(17)
 
     def teleopPeriodic(self):
-        # self.motor.set(0.5) 
-        pass
+        self.motor.set(0.5) 
+        
