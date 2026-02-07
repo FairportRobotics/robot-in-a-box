@@ -1,9 +1,5 @@
 import wpilib 
 import phoenix5
-class Robot (wpilib.TimedRobot): 
-    import wpilib
-import phoenix5
-
 class MyRobot(wpilib.TimedRobot):
     def robotInit(self):
         self.motor = phoenix5.MotorController(1)
