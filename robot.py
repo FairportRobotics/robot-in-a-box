@@ -8,5 +8,4 @@ class MyRobot(wpilib.TimedRobot):
 
     def teleopPeriodic(self):
         speed = self.controller.getLeftY()
-        self.motor.set(speed) 
-        
+        self.motor.set(speed)
