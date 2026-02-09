@@ -19,4 +19,6 @@ class HopperSubsystem(commands2.Subsystem):
         # Stop the hopper motor
         self.motor.set(0)
 
+
+
     
